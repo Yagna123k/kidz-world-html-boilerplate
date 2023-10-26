@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Rubik:wght@400;600&display=swap");
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik", sans-serif;
+    overflow-x: hidden;
+    overflow-y:auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 75px;
+    padding-right: 60px;
+    height: 50px;
+}
+.logo img{
+    width: 150px;
+}
+
+.navcard{
+    display:flex;
+    width: 140px;
+    font-weight: 900;
+    align-items: center;
+    font-size: 15px;
+}
+
+.navcard img{
+    width: 35px;
+}
+
+.hero{
+    height: 475px;
+    width: 100%;
+    background-image: url("./assets/kw-background.png");
+    background-size: 100% 100%;
+    color: white;
+    padding-left: 75px;
+}
+
+.hero h1{
+    padding-top: 50px;
+    font-family: serif;
+    font-size: 70px;
+    line-height: 140%;
+}
+
+.hero p{
+    font-size: 16px;
+}
+
+.discover{
+    padding: 100px 75px;
+}
+.discover h1{
+    font-family: serif;
+}
+.discover .items{
+    display: flex;
+    justify-content: space-between;
+}
+
+.item img{
+    padding-top: 10px;
+    width: 190px;
+}
+
+.item h1{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.item p{
+    margin: 10px 0;
+    font-size: 15px;
+    color: gray;
+}
+
+.cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cost .add{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 800;
+    background-color: #6196FF;
+    width: 70px;
+    height: 35px;
+    color: white;
+    border-radius: 5px;
+
+}
+.add h1{
+    font-size: 16px;
+}
+
+.add img{
+    width: 18px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+.games{
+    padding-top: 50px;
+}
+
+.item2 img{
+    width: 275px;
+}
+
+.item2 .add img{
+    width: 18px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 75px;
+    color: white;
+    width: 100vw;
+    height: 175px;
+}
+footer img{
+    width: 130px;
+    height: 134px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.heading{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+}
+
+.right h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.right p{
+    font-size: 14px;
+}
