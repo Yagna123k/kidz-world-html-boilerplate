@@ -63,9 +63,13 @@ nav{
     justify-content: space-between;
 }
 
+.item{
+    width: 195px;
+}
+
 .item img{
     padding-top: 10px;
-    width: 190px;
+    width: 100%;
 }
 
 .item h1{
@@ -83,6 +87,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .cost .add{
@@ -111,8 +116,12 @@ nav{
     padding-top: 50px;
 }
 
+.item2{
+    width:275px;
+}
+
 .item2 img{
-    width: 275px;
+    width: 100%;
 }
 
 .item2 .add img{
@@ -156,4 +165,93 @@ footer img{
 
 .right p{
     font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    body {
+    text-align: center;
+    }
+    nav{
+        height: 75px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .logo img{
+        width: 200px;
+    }
+    
+    .navcard{
+        width: 150px;
+        font-size: 18px;
+        justify-content: space-between;
+    }
+    
+    .navcard img{
+        width: 50px;
+    }
+
+    .hero{
+        height: 200px;
+        font-size: 15px;
+        text-align: start;
+        padding-left: 25px;
+    }
+
+    .hero h1{
+        padding: 0;
+        font-size: 4vh;
+    }
+
+    .hero h3{
+        margin-top: 20px;
+        font-size: 15px;
+    }
+
+    .discover h1{
+        font-size: 29px;
+    }
+
+    .discover{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .discover .items{
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .item{
+        width: 90%;
+        margin-bottom: 25px;
+    }
+
+    .item .name{
+        font-size: 24px;
+    }
+
+    .item .cost .add h1{
+        font-size: 20px;
+    }
+
+    .games{
+        padding: 25px;
+    }
+    footer{
+        padding: 0 25px;
+    }
+
+    footer{
+        height:250px
+    }
+    .heading{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    footer .right{
+        text-align: end;
+    }
 }
